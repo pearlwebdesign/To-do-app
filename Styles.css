@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: helvetica, sans-serif;
+  background-color: #474747;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#myDiv{
+  background-color: white;
+  border-radius: 5px;
+  width: 350px;
+  height: 100%;
+  padding: 15px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+h2{
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin-bottom: 15px;
+}
+form{
+  display: flex;
+  margin-bottom: 15px;
+}
+#myTodo{
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+#myButton{
+  padding: 10px 11px;
+  border: none;
+  background-color: #ff8c82;
+}
+#msg{
+  color: red;
+  letter-spacing: 2px;
+}
+.toDoContainer div{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  padding-top: 0;
+  }
+.toDoContainer li{
+  font-size: 18px;
+  width: 60%;
+}
+.toDoContainer{
+  overflow-y: scroll;
+  margin-bottom: 15px;
+  
+}
+.edit,
+.delete{
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  color: black;  
+}
+.hcBtn div{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  
+}
+#hideBtn,
+#clearBtn{
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: #ff8c82;
+  color: black;
+}
