@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>To-do App</title>
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id="myDiv">
+  <h2>To do List</h2>
+
+  <div id = "msg"></div>
+ <form id = "myForm">
+  <input type="text" id="myTodo" placeholder="Enter your to do" autofocus/>
+     <button id="myButton"><i class="fa-solid fa-plus"></i>
+     </button>
+</form> 
+
+<div class="toDoContainer">
+    
+  <div class = "edBtn">
+  <span>
+     <button class ="edit" 
+       style ="display : none">
+      <i class="fa-sharp fa-solid fa-pen-to-square"></i>
+     </button>
+     <button class = "delete" 
+       style ="display : none">
+      <i class="fa-solid fa-trash-can"></i>
+     </button>
+  </span>
+   </div>
+  
+</div>  
+
+  <div class = "hcBtn">
+    <div>
+        <button id= "hideBtn">
+          Hide list
+          </button>
+      <button id= "clearBtn">
+          Clear list
+       </button>
+      </div>
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+  
