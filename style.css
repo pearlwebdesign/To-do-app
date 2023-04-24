@@ -6,7 +6,6 @@
 body{
   font-family: helvetica, sans-serif;
   background-color: #474747;
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -17,7 +16,6 @@ body{
   width: 350px;
   height: 100%;
   padding: 15px;
-  margin-left: 50px;
   margin-top: 50px;
   justify-content: center;
 }
