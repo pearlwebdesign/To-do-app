@@ -9,6 +9,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 #myDiv{
   background-color: white;
@@ -16,7 +17,8 @@ body{
   width: 320px;
   height: 100%;
   padding: 15px;
-  margin: 70px;
+  margin-right: 70px;
+  margin-left: 70px
 }
 h2{
   text-transform: uppercase;
