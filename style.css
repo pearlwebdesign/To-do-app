@@ -70,7 +70,6 @@ form{
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
-  
 }
 #hideBtn,
 #clearBtn{
@@ -80,6 +79,7 @@ form{
   background-color: #ff8c82;
   color: black;
 }
+
 
 .attribution {
   font-size: 11px;
