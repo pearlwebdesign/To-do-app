@@ -8,6 +8,7 @@ body{
   background-color: #474747;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 #myDiv{
   background-color: white;
