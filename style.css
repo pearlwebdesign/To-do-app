@@ -69,7 +69,7 @@ form{
 .hcBtn div{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 #hideBtn,
 #clearBtn{
@@ -82,9 +82,9 @@ form{
 
 
 .attribution {
-  font-size: 11px;
+  font-size: 10px;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .attribution a {
