@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 Body{
-  height: 100%;
   align-items: center;
+  background-color: #474747;
+  text-align: center;
 }
 .main{
   font-family: helvetica, sans-serif;
