@@ -85,7 +85,7 @@ form{
   font-size: 11px;
   text-align: center;
   color: white;
-  display: inline-block;
+  display: none;
 }
 
 .attribution a {
