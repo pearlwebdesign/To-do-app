@@ -7,6 +7,7 @@ Body{
   align-items: center;
   background-color: #474747;
   text-align: center;
+  justify-content: center;
 }
 .main{
   font-family: helvetica, sans-serif;
